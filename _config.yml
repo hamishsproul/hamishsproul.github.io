@@ -23,7 +23,7 @@ description: Hamish Sproul's site used to share his projects and ideas.
 minimal_mistakes_skin: dark
 # dark_mode: true
 search: true
-#url: "https://mmistakes.github.io"
+url: "https://hamishsproul.github.io"
 teaser: /assets/images/galaxy.jpg # default teaser image
 enable_copy_code_button: true
 atom_feed:
