@@ -3,6 +3,9 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Welcome to my website! This is a space for me to share my projects, ideas, and insights across various STEM fields. While I’m particularly passionate about the space industry, my interests extend to education and other areas of STEM. You’ll find a mix of content here, ranging from space-related applications to educational resources and explorations in science and technology.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I have a strong foundation in science education, specializing in physics, paired with a deep enthusiasm for space technology. I’m currently transitioning into a career in the space industry. Through this site, I hope to document my journey, share my experiences, and inspire others to share their ideas or take on a STEM project.
+
+
+
