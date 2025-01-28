@@ -9,7 +9,7 @@ title: Hamish Sproul, MSc, MPhys
 ---
 
 ## About Me  
-Aspiring systems engineer and physics educator with over five years of experience delivering impactful educational solutions and driving successful project outcomes. Recently graduated magna cum laude from an Advanced Master in Space Studies, with expertise in problem-solving, computational analysis, and cross-disciplinary collaboration. Passionate about designing, implementing, and optimizing complex systems across industries.
+Aspiring systems engineer and physics educator with over five years of experience delivering impactful educational solutions and driving successful project outcomes. Recently graduated magna cum laude from KU Leuven with an MSc in Space Studies. Current expertise in problem-solving, computational analysis, and cross-disciplinary collaboration. Passionate about designing, implementing, and optimizing complex systems across industries.
 
 ---
 
@@ -25,7 +25,7 @@ Aspiring systems engineer and physics educator with over five years of experienc
 - Designed and implemented engaging physics curricula for high school students.  
 - Pioneered the adoption of digital tools for lesson planning and classroom management, streamlining educational delivery.
 
-### 2018 – 2019: **Van Pricing Analyst**  
+### 2018 – 2019: **Pricing Analyst**  
 **Admiral PLC, UK**  
 - Conducted complex pricing analyses using internal systems to respond to customer pricing queries.
 
@@ -41,12 +41,12 @@ Aspiring systems engineer and physics educator with over five years of experienc
 
 ## Education  
 
-### **Advanced Master of Space Studies** (Magna cum laude)  
+### **MSc Master of Space Studies** (Magna cum laude)  
 **KU Leuven | 2023 – 2024**  
 **Thesis:** [Drop Drones: An Alternative Low Gravity Platform](https://kuleuven.limo.libis.be/discovery/fulldisplay?context=L&vid=32KUL_KUL:KULeuven&docid=alma9995039967101488)  
 **Relevant Courses:** Systems Design, Satellite Technology, Instrumentation, Orbital Mechanics, Navigation and Communication Systems  
 
-### **Master of Physics** (2:1)  
+### **MPhys Master of Physics** (2:1)  
 **University of Bath | 2013 – 2017**  
 **Thesis:** Aligning Anisotropic Mesophases of Phytantriol  
 **Relevant Courses:** Computational Physics, Photonics, Fluid Dynamics, Electromagnetism  
@@ -67,6 +67,7 @@ Aspiring systems engineer and physics educator with over five years of experienc
 
 ### Languages  
 - Fluent in English
+- Beginner in Dutch
 
 ---
 
@@ -85,15 +86,14 @@ Aspiring systems engineer and physics educator with over five years of experienc
 
 ## Additional Experience and Certifications  
 
-### Awards and Achievements  
-**Best A Level Results** | Pencoed Comprehensive School | 2014
-
 ### Certifications  
 **INCOSE Associate Systems Engineering Professional Certification** (In Progress)  
 **Space Debris Training Course** | ESA Academy | 2024  
 **Machine Learning Specialization** | DeepLearning.AI and Stanford University | 2024  
 **E-Learning Ecologies: Innovative Approaches to Teaching and Learning for the Digital Age** | University of Illinois | 2021  
 
+### Awards and Achievements  
+**Best A Level Results** | Pencoed Comprehensive School | 2014
 ### Volunteering  
 **POC Representative** | 2023–2024  
 - Represented the student body to communicate constructive feedback and foster program improvements.  
