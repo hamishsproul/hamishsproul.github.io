@@ -17,6 +17,6 @@ So, I focused my master thesis on this topic. I defined customer requirements ba
 
 # Project Aim
 
-Modelling the performance of a drop drone was fun, however, it was all theoretical. The real fun is in bringing something to life! In my thesis, I estimated the production costs of a drop drone to be EUR 250,000, not a sum I have lying around… A much smaller version using COTS drone parts is more affordable. A so-called micro drop drone will only achieve 3-5 s of low gravity carrying payloads < 1 kg. Such performance is unlikely to be useful for industry but could make for an enaging educational activity for students.
+Modelling the performance of a drop drone was fun, however, it was all theoretical. The real fun is in bringing something to life! In my thesis, I estimated the production costs of a drop drone to be EUR 250,000, not a sum I have lying around… A much smaller version using COTS drone parts is more affordable. A so-called micro drop drone will only achieve 3-5 s of low gravity carrying payloads < 1 kg. Such performance is unlikely to be useful for industry but could make for an engaging educational activity for students.
 
-My aim, therefore, is to build and program a micro drop drone that performs a vertical parabolic manoeuvre to create low gravity conditions. In these posts, I’ll document my progress so hopefully you can create your own micro drop drone and start performing low gravity exepriments!
+My aim, therefore, is to build and program a micro drop drone that performs a vertical parabolic manoeuvre to create low gravity conditions. In these posts, I’ll document my progress so hopefully you can create your own micro drop drone and start performing low gravity experiments!
