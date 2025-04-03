@@ -37,17 +37,17 @@ I first needed to know what methods were useful for my application. I went throu
 - `gcs:send_text(0, "LGM: " .. message)` <- send a message to the ground control station (with the prefix LGM:)
 
 ## Testing Lua Scripts with Mission Planner
-Mission Planner is a ground control station software that is able to run SITL simulations like that described in my [last post]([[projects/Micro Drop Drone/Blog Posts/2024-12-16-micro-drop-drone-3|2024-12-16-micro-drop-drone-3]]). Go to the Simulation tab and select Multirotor. You will need to download the data the first time but can select Skip Download in the drop down box for future runs of the SITL.
+Mission Planner is a ground control station software that is able to run SITL simulations like that described in my [last post](/_posts/2024-12-16-micro-drop-drone-3.md). Go to the Simulation tab and select Multirotor. You will need to download the data the first time but can select Skip Download in the drop down box for future runs of the SITL.
 ![](/assets/images/mdd_blog_post_4/mdd_MP_1.png "Starting an SITL simulation using Mission Planner.")
 Once running, navigate to Config, MAVFtp, click the + to open the folder, then double click scripts. If this scripts folder doesn't exist, you will need to create it. Here, you can add your Lua scripts by right clicking and select upload.
-![](/assets/images/mdd_blog_post_4/mdd_MP_2.png "Uploading Lua scripts to your SITL instance.)
+![](/assets/images/mdd_blog_post_4/mdd_MP_2.png "Uploading Lua scripts to your SITL instance.")
 Then you need to restart the SITL for the drone to boot with the loaded Lua script. A quick way to do this is press `ctrl + F`, click reboot Pixhawk, wait a few seconds until the drone disconnects, then click connect in the top right corner. This doesn't always work, so you may need to just disconnect and restart the SITL like at the beginning. When the SITL drone starts up, the script will be active.
 
 
 # LGM v1
 With the help of Anthropic's Claude, I put together a v1 of a Low Gravity Manoeuvre script written in Lua. This script, `lgm_v1.lua`, is structured as a state machine. The drone starts of in an IDLE state and only transitions to other states when conditions have been met (such as flight checks). This structure allows easy implementation of parallel states such as an abort state if, say, the drone is too low or or moving too fast.
 
-{% highlight python %}
+{% highlight lua %}
 -- Low Gravity Maneuver (LGM) Script for Pixhawk Flight Controller - written by Claude
 -- Definitions:
 -- - Low gravity: accelerations < 0.1 g's = 0.981 m/s²
@@ -470,5 +470,5 @@ return update, 1000 -- start script after one second
 This version has the foundation for an lgm script, but its control algorithm to achieve low gravity is very simple. It starts with a low thrust during the low gravity phase and increases the thrust by a small amount if the acceleration is too low and decreases the thrust if the acceleration is too high.
 
 The graph below shows the vertical acceleration, velocity and altitude of a proxy drone during the low gravity phase when controlled by this lgm_v1.lua.
-![](/assets/images/mdd_blog_post_4/flight_data_plot_v1_data_2.png "Flight data of a proxy drone being controlled by lgm_v1.lua.)
+![](/assets/images/mdd_blog_post_4/flight_data_plot_v1_data_2.png "Flight data of a proxy drone being controlled by lgm_v1.lua.")
 The acceleration hovers around 0.5 g's, which, while lower than 1 g, is not considered low gravity (typically below 0.1 g's). The next steps of this project is to implement more effective control algorithms that achieve low gravity conditions. In my next post, I'll also explain more about the design of these lgm scripts.
