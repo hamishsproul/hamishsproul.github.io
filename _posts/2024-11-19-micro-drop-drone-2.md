@@ -1,12 +1,12 @@
 ---
-#layout: posts
-title: "Micro Drop Drone 2 - The Hardware"
+title: Micro Drop Drone 2 - The Hardware
 date: 2024-11-19 13:00:00 +0530
 categories:
   - micro drop drone
 tags:
   - drones
   - low-gravity
+  - projects/micro_drop_drone
 ---
 
 The control algorithm will be the key technology in a micro drop drone. There are two options to test control algorithms: using software-in-the-loop (SITL) applications or using a prototype drone. To enable this second option, I started by building the base platform of a micro drop drone prototype.
@@ -59,7 +59,7 @@ On day one, I soldered the ECS’s and XT60 power cable to the power distributio
 
 
 
-One day two, I secured the Pixhawk 2.4.8 to the damping mount and glued this to the top board of the drone. I then secured the switch, buzzer, power module, radio telemetry module, OLED display, I2C extension board, and GPS mount to the drone. I connected everything up following this ArduPilot guide. The following photos show the placement of each component.
+One day two, I secured the Pixhawk 2.4.8 to the damping mount and glued this to the top board of the drone. I then secured the switch, buzzer, power module, radio telemetry module, OLED display, I2C extension board, and GPS mount to the drone. I connected everything up following [this ArduPilot guide](https://ardupilot.org/copter/docs/autopilot-assembly-instructions.html). The following photos show the placement of each component.
 
 | 1 | 2 |
 :-------------------------:|:-------------------------:

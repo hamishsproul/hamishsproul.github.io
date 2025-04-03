@@ -1,5 +1,4 @@
 ---
-#layout: posts
 title: Micro Drop Drone 3 - Software-In-The-Loop
 date: 2024-12-16 13:00:00 +0530
 categories:
@@ -7,6 +6,7 @@ categories:
 tags:
   - drones
   - low-gravity
+  - projects/micro_drop_drone
 ---
 
 ## What is SITL?
@@ -17,7 +17,7 @@ With this capability, we can test scripts that command a drone to fly a vertical
 ## How to Run a SITL Instance
 The following is a summary of how I set up and run SITL instances. If you need further guidance, I highly recommend [ArduPilot's website](https://ardupilot.org/dev/docs/where-to-get-the-code.html) and [Caleb's Drone Dojo videos](https://youtu.be/TO7qa8oCACI?si=LFwZP-_T11lm0z3m)
 
-I use windows and while SITL can be run on windows, I decided to follow Caleb's guide and use Windows Subsystems for Linux (WSL2 to be exact) to become more familiar with Linux. I installed Ubuntu 24.04. I then cloned the ArudPilot git repository following [Caleb's guide](https://youtu.be/uvZIfGBqLPE?si=M6_7AldYhjrevKwq). I also followed [Caleb's video](https://youtu.be/CvzvLN23TjA?si=jF62TiO93YtuTPyp) to set up the work environment, making it easier to get into the ArduPilot folder each time.
+I use windows and while SITL can be run on windows, I decided to follow Caleb's guide and use Windows Subsystems for Linux (WSL2 to be exact) to become more familiar with Linux. I installed Ubuntu 24.04. I then cloned the ArduPilot git repository following [Caleb's guide](https://youtu.be/uvZIfGBqLPE?si=M6_7AldYhjrevKwq). I also followed [Caleb's video](https://youtu.be/CvzvLN23TjA?si=jF62TiO93YtuTPyp) to set up the work environment, making it easier to get into the ArduPilot folder each time.
 
 To run an SITL instance, you need to navigate to the vehicle folder within the ArduPilot directory, e.g. ArduCopter to run a SITL instance for a quadcopter. Once there, running `sim_vehicle.py` will start an SITL instance. Adding `--map` and `--console` should also load a map and console to interact with this proxy drone. 
 
